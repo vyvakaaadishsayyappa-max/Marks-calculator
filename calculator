@@ -1,0 +1,30 @@
+# Step 1: Take input
+print("=== Student Marks Calculator ===")
+subjects = ["Math", "Science", "English", "Social", "Computer"]
+marks = []
+
+for sub in subjects:
+    m = int(input(f"Enter marks for {sub}: "))
+    marks.append(m)
+
+# Step 2: Calculate
+total = sum(marks)
+percentage = total / 5
+
+# Step 3: Decide Grade
+if percentage >= 90:
+    grade = "A+"
+elif percentage >= 80:
+    grade = "A"
+elif percentage >= 70:
+    grade = "B"
+elif percentage >= 60:
+    grade = "C"
+else:
+    grade = "D - Need to Improve"
+
+# Step 4: Show Result
+print("\n=== RESULT ===")
+print("Total Marks:", total, "/ 500")
+print("Percentage:", percentage, "%")
+print("Grade:", grade)
