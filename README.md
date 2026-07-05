@@ -8,4 +8,4 @@
    3. Enter marks for each subject
    
    ## Built by
-   [Your Name] - 10th Class Student learning AI
+   [v Aadish] - 10th Class Student learning AI
